@@ -1,30 +1,27 @@
 # 🌀 Maze Algorithm Visualizer
 
-<div align="center">
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/▶%20Live%20Demo-Try%20it%20now-brightgreen?style=for-the-badge)](https://ayoub-lamliti.github.io/Maze-visualizer/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 **An interactive, step-by-step visualizer for maze generation and pathfinding algorithms.**  
 Watch DFS carve a maze, then solve it with BFS, A\*, or Dijkstra — all in a single HTML file.
 
 [Features](#-features) · [Quick Start](#-quick-start) · [Algorithms](#-algorithms) · [Controls](#-controls) · [Project Structure](#-project-structure)
 
-</div>
-
 ---
 
 ## ✨ Features
 
-- **4 algorithms** — DFS generation, BFS, A\*, and Dijkstra solving
-- **Step-by-step playback** — play/pause, next, previous, adjustable speed
-- **Live data structures** — stack, queue, or open set displayed in real time
-- **Path visualization** — final solution path highlighted with step count
-- **g/f score overlay** — toggle cost scores on each cell during A\*
-- **6 maze sizes** — from 3×3 up to 8×8
-- **Zero dependencies** — single `.html` file, works offline, no install needed
+* **4 algorithms** — DFS generation, BFS, A\*, and Dijkstra solving
+* **Step-by-step playback** — play/pause, next, previous, adjustable speed
+* **Live data structures** — stack, queue, or open set displayed in real time
+* **Path visualization** — final solution path highlighted with step count
+* **g/f score overlay** — toggle cost scores on each cell during A\*
+* **6 maze sizes** — from 3×3 up to 8×8
+* **Zero dependencies** — single `.html` file, works offline, no install needed
 
 ---
 
@@ -91,7 +88,7 @@ Explores by lowest accumulated cost. Behaves like BFS on a uniform-cost maze, op
 ## 🎮 Controls
 
 | Control | Action |
-|---|---|
+| --- | --- |
 | `▶ PLAY` | Auto-play through all steps |
 | `⏸ PAUSE` | Pause animation |
 | `NEXT ▶` | Advance one step |
@@ -107,7 +104,7 @@ Explores by lowest accumulated cost. Behaves like BFS on a uniform-cost maze, op
 ## 🎨 Cell Color Legend
 
 | Color | Meaning |
-|---|---|
+| --- | --- |
 | 🟡 Yellow | Current cell being processed |
 | 🟢 Teal | Path from start to exit |
 | 🔵 Blue | Open set (A\* / Dijkstra candidates) |
@@ -120,7 +117,7 @@ Explores by lowest accumulated cost. Behaves like BFS on a uniform-cost maze, op
 ## 📁 Project Structure
 
 ```
-inedx.html
+index.html
 script.js
 style.css
 README.md
@@ -161,4 +158,4 @@ MIT — free to use, modify, and distribute.
 
 ---
 
-**Author:** lamliti ayoub &nbsp;·&nbsp; Made for 42 School
+**Author:** Ayoub Lamliti · Made for 42 School
